@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.16 (Ubuntu 12.16-0ubuntu0.20.04.1)
--- Dumped by pg_dump version 12.16 (Ubuntu 12.16-0ubuntu0.20.04.1)
+-- Dumped from database version 12.9 (Ubuntu 12.9-2.pgdg20.04+1)
+-- Dumped by pg_dump version 12.9 (Ubuntu 12.9-2.pgdg20.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -421,11 +421,11 @@ ALTER TABLE ONLY public.moon
 
 
 --
--- Name: more_info more_info_distance_from_earth_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+-- Name: more_info more_info_distance_from_earth_in_miles_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
 --
 
 ALTER TABLE ONLY public.more_info
-    ADD CONSTRAINT more_info_distance_from_earth_key UNIQUE (distance_from_earth_in_miles);
+    ADD CONSTRAINT more_info_distance_from_earth_in_miles_key UNIQUE (distance_from_earth_in_miles);
 
 
 --
